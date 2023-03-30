@@ -1,6 +1,6 @@
-# Node Typescript Starter
+# Node Typescript Docker Starter
 
-A preconfgiured template for Node.js apps with Typescript and Express
+A preconfgiured template for Node.js apps with Typescript and Express + Docker
 
 ## What's included
 
@@ -8,8 +8,9 @@ A preconfgiured template for Node.js apps with Typescript and Express
 - `morgan`
 - `body-parser`
 - VSCode launch configuration for debugging
+- Dockerfile
 
-[![Use this template](https://user-images.githubusercontent.com/6261302/228815093-285a6fbd-4893-4c23-aaff-ed886910b660.svg)](https://github.com/lesnitsky/node-ts-express-starter/generate)
+[![Use this template](https://user-images.githubusercontent.com/6261302/228815093-285a6fbd-4893-4c23-aaff-ed886910b660.svg)](https://github.com/lesnitsky/node-ts-express-docker-starter/generate)
 
 ## Usage
 
@@ -25,7 +26,8 @@ npm i
 - `lint` – lints a project with `eslint`
 - `lint:fix` – lints a project with `eslint` and applies fixes
 - `build` – builds a project with `tsc`
-- `start` – starts a built project
+- `build:docker` – builds a docker container
+- `start` – starts a docker container
 
 ## License
 
